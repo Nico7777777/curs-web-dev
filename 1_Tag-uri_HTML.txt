@@ -1,0 +1,48 @@
+DE BAZA:
+
+<!--Acesta e un comentariu-->
+<body>Aici se afla corpul documentului</body>
+<h1>Titlul de importanta 1</h1>. Exista pana la h6
+<p>Aici se scrie un paragraf</p>
+<br> => Enter, adica '\n'
+
+<b>Text ingrosat</b>
+<code>Aici este un cuvant cheie / o instructiune dintr-un limbaj</code>
+<strong>Text important, evidentiat</strong>
+<sub>Text scris ca indice</sub>
+<sup>Text scris ca exponent, ridicare la putere<sup>
+<span style="color:red"> Am scris cu rosu</span>  <--- se schimba in interiorul unui text
+<div>Aici e o sectiune din document cu o formatare proprie</div>   <--Se controleaza cu JS sau cu CSS
+
+<a href="https://google.ro" > Acesta e un link catre Google</a>
+<head>
+<link rel="stylesheet" href="propriul_stil_css.css">
+</head>
+
+Enumerare cu bullets
+<ul>
+	<li>Element 1 din lista</li>
+	<li>Element 2 din lista</li>
+	<li>Element 3 din lista</li>
+</ul>
+
+Enumerare numerica
+<ol>
+  <li>Elem 1</li>
+  <li>Elem 2</li>
+  <li>Elem 3</li>
+</ol>
+
+<table>
+  <tr>
+    <th>Nume prima coloana</th>
+    <th>Nume a doua coloana</th>
+  </tr>
+  <tr>
+    <td>Randul 1, col 1</td>
+    <td>Randul 1, col 2</td>
+  </tr>
+</table>
+
+
+
