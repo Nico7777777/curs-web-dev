@@ -1,0 +1,44 @@
+#flexstart
+    {
+        display: flex;
+        justify-content: flex-start;
+    }
+#flexstop
+    {
+        display: flex;
+        justify-content: flex-end;
+    }
+#center
+    {
+        display: flex;
+        justify-content: center;
+    }
+#evenly
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+#around
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+#between
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+/* am facut alinierea blocurilor */
+
+#chestie
+    {
+        width: 15px;
+        height: 20px;
+        margin: 2px;
+        padding: 10px;
+        border: 3px dashed red;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        background-color: rgb(112, 80, 37);
+    }
