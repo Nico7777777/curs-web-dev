@@ -1,0 +1,48 @@
+.container
+{
+    position: relative;
+    float: left;
+    background-color: seagreen;
+    width: 500px;
+    height: 500px;
+}
+
+#cutie1
+{
+    position: relative;
+    z-index: 1;
+    border: 3px solid magenta;
+    background-color: mediumaquamarine;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    top: 100px;
+}
+
+#cutie2
+{
+    position: absolute;
+    z-index: 13;
+    border: 1px solid red;
+    background-color: rgb(155, 102, 205);
+    height: 170px;
+    width: 140px;
+    left: 80px;
+    bottom: 140px;
+
+}
+
+#cutie3
+{
+    position: relative;
+    z-index: 4;
+    border: 6px solid rgb(0, 255, 157);
+    background-color: rgb(205, 172, 102);
+    height: 50px;
+    width: 50px;
+    left: 40px;
+    border-radius: 40px 40px 40px 40px;
+    background-image: url("Star_Wars_-_Darth_Vader.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
