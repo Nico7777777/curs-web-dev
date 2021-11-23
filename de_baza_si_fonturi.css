@@ -1,0 +1,49 @@
+/*o clasa de baza*/
+h1
+{
+	color: red;
+}
+
+p
+{
+background-color:#F9BAF0;
+}
+
+p#soare
+{
+	font-size: 30px;
+	font-family: "Courier";
+	color: yellow;
+}
+
+@font-face
+{
+	font-family: "cookiemonster";
+	src: url( "cookiemonster.ttf" ) format( 'truetype' );
+}
+
+@font-face
+{
+	font-family: "starwars";
+	src: url( "starwars.ttf" ) format( "truetype" );
+}
+
+
+p#zi
+{
+	font-family: "cookiemonster";
+	font-size: 40px;
+	line-height: 40px;
+	margin-left: 100px;
+}
+	
+p#noapte
+{
+	font-family: "starwars";
+	font-size: 30px;
+	line-height: 80px;
+	margin-left: 450px;
+	margin-right: 400px;
+}
+	
+	
