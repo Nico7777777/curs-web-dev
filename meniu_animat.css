@@ -1,0 +1,59 @@
+body
+{
+	margin: 0;
+}
+@keyframes animatie-frumi
+{
+	0%{ font-size:20;}
+	100%{font-size:36;}
+}
+#pa_stanga
+{
+	width: 10%;
+	height: 100%;
+	float: left;
+	background-color: #d279a6;
+}
+#pa_dreapta
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #d279a6;
+}
+#central
+{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+#navigare
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color:  #003300;
+}
+#navigare ul
+{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	width: 100%;
+	
+}
+#navigare ul li
+{
+	margin: 5px;
+	display: inline-block;
+	padding: 3px;
+	border: solid red 3px;
+	text-align: center;
+	vertical-align: center;
+	color: blanchedalmond;
+}
+#navigare ul li:hover
+{
+	animation-name: animatie-frumi;
+	animation-duration: 4s;
+}
