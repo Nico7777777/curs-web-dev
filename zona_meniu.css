@@ -1,0 +1,31 @@
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 2px;
+    overflow: auto;
+}
+
+li
+{
+    float:left;
+}
+
+li a
+{
+    display: block;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.active
+{
+    background-color: red;
+    color: black;
+}
+
+li a:hover{
+    background-color: aqua;
+    Color: orange;
+}
