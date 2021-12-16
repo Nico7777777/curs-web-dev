@@ -1,0 +1,29 @@
+body
+{
+    margin: 0px;
+    background-color:khaki;
+}
+.titlu_de_meniu
+{
+    font-weight: 700;
+    padding: 5px;
+}
+.mainul
+{
+    padding: 20px 10px 0px;
+}
+.sobsol
+{
+    background-color: grey;
+}
+#content
+{
+    height: 100%;
+    display: grid;
+    grid-template-columns:  6fr 11fr 3fr;
+    grid-template-rows: 3fr 5fr 2fr;
+}
+#content-element
+{
+    height: 100%;
+}

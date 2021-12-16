@@ -1,0 +1,117 @@
+.zona1
+	{
+		display: grid;
+		
+		grid-template-rows: 1fr 3fr 2fr;
+		grid-template-columns: 1fr 1fr;
+		
+		background-color: lightgreen;
+		
+		grid-row-gap: 5px;
+		grid-column-gap: 10px;
+	}
+
+.a1
+	{
+		background-color: lightblue;
+		font-size: 20px;
+		color: white;
+	}
+
+.a2
+	{
+		background-color: tomato;
+		font-size: 30px;
+		color: green;
+	}
+
+.a3
+	{
+		background-color: orange;
+		font-size: 15px;
+		color: purple;
+	}
+
+.zona2
+	{
+		display: grid;
+		
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		
+		background-color: #cbd2d1;
+		
+		grid-row-gap: 20px;
+		grid-column-gap: 20px;
+	}
+	
+.item:nth-child(1)
+	{
+		background-color: blue;
+		color: white;
+		display: flex;
+		justify-content: center;
+	}
+.item:nth-child(2)
+	{
+		background-color: yellow;
+		color: red;
+		display: flex;
+		justify-content: center;
+	}
+.item:nth-child(3)
+	{
+		background-color: red;
+		color: black;
+		justify-items: center;
+/*		display: flex;
+		justify-content: center;
+*/
+	}
+.item:nth-child(4)
+	{
+		background-color: green;
+		color:yellow;
+		display: flex;
+		justify-content: center;
+	}
+.item:nth-child(5)
+	{
+		background-image: url('jhonny.jpeg');	
+		color: black;
+		display: flex;
+		justify-content: center;
+		padding: 70px 0px 70px;
+	}
+.item:nth-child(6)
+	{
+		background-color: aqua;	
+		color:indigo;
+		display: flex;
+		justify-content: center;
+	}
+#Johnny
+	{
+		background-color: black;
+		color: green;
+		width: 30%;
+		display: flex;
+		justify-content: center;
+	}
+#continut
+	{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	
+#continut_Johnny
+	{
+		display: flex;
+		justify-content: center;
+	}
+.liniuta
+	{
+		display: flex;
+		justify-content: center;	
+	}
