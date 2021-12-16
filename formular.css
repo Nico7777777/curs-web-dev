@@ -1,0 +1,60 @@
+*
+    {
+        box-sizing: border-box;
+    }
+    
+
+.eticheta
+    {
+        border: 2px solid black;
+        padding: 10px;
+        display: inline-block;
+    }
+    
+input[type=text],select
+    {
+        width: 100%;
+        padding: 10px;
+        border: 10px solid red;
+        border-radius: 10px;
+    }
+input[type=submit]
+{
+    background-color: blue;
+    color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+    
+input[type=submit]:hover
+{
+    background-color: green;
+}
+
+col_30
+    {
+        float: left;
+        width: 30%;
+    }
+
+col_70
+    {
+        float: left;
+        width: 70%;
+    }
+    
+#container
+    {
+        background-color: cyan;
+        border-radius: 10px;
+        padding: 30px;
+    }
+    
+rand:after
+    {
+        content: "";
+        display: table;
+        clear: both;
+    }
