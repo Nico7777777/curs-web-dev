@@ -1,0 +1,56 @@
+body
+{
+    background-color: yellow;
+}
+
+#container
+{
+    border: 4px solid grey;
+    color: rgb(106, 44, 11);
+    display: grid;
+    background-color: orange;
+    grid-template-rows: 2fr 10 fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+#unic1
+{
+    background-color: blue;
+    font-size: 18;
+}
+
+#unic2
+{
+    background-color: aquamarine;
+}
+
+#unic3
+{
+    background-color: fuchsia;
+    font-size: 18;
+}
+
+#unic4
+{
+    background-color: red;
+    font-size: 18;
+}
+
+#unic5
+{
+    background-color: tomato;
+    border-radius: 7px;
+
+    font-size: 18;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+}
+
+#unic45
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
