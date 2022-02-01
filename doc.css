@@ -1,0 +1,17 @@
+h1{
+    text-decoration: underline;
+}
+#paragraf_simplu{
+    color: green;
+}
+#zona1{
+    background-color: lightseagreen;
+    color: darkred;
+    /*margin: 0% 20% 0%;*/
+    display:flex;
+    justify-content:center;
+
+}
+.paragraf-tip1{
+    background-color: darkslategrey;
+}
