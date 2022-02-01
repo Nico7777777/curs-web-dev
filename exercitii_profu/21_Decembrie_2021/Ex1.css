@@ -1,0 +1,28 @@
+.container
+	{
+		display: grid;
+		background-color: yellow;
+		column-gap: 15px;
+		row-gap: 5px;
+		grid-template-columns: 100px 100px 50px 150px;
+		grid-template-rows: 2fr 8fr 8fr 2fr;
+		grid-template-areas:
+			"sus sus sus sus"
+			"stanga main main dreapta"
+			"stanga main main dreapta"
+			"jos jos jos jos";
+	}
+	
+.item-a{ grid-area: sus; background-color: gray;}
+.item-b{ grid-area: stanga; background-color: pink;}
+.item-c{ grid-area: main; background-color: cyan;}
+.item-d{ grid-area: dreapta; background-color: lime;}
+.item-e{ grid-area: jos; background-color: orange;}
+
+#ceva
+	{
+		width: 70px;
+		height: 70px;
+		border-radius:10px;
+		background-color: red;
+	}

@@ -1,0 +1,55 @@
+#meniu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*
+    E o posibilitate s-asta ca iese frumos in ambele feluri dar imi place mie asa
+    *
+    display: flex;
+    justify-content: center;
+    *
+    */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#meniu
+{
+    display: flex;
+    justify-content:flex-end;
+}
+#meniu ul li a
+{
+    text-decoration: none;
+}
+#meniu ul li a
+{
+
+    margin-right: 4%;
+    display: inline-block;
+    border: solid #c2b82a 3px;
+    border-radius: 23%;
+    text-align: center;
+    vertical-align: center;
+    padding: 1%;
+    background-image:  linear-gradient(to bottom right,#003300, #549400);
+    color:darkorange;
+    flex: auto;
+
+}
+@keyframes animatie
+{
+     0% { color: darkorange; }
+     50%{ color: darkblue;}
+     75%{ color: lightcoral;}
+    100%{ color: darkorange; }
+}
+#meniu ul li a:hover
+{
+    animation-name: animatie;
+    animation-duration: 2.5s;
+    border: solid aqua 3px;
+    background-image: linear-gradient(#380c0c, #0a6e48);
+    
+}

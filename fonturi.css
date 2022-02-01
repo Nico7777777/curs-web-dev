@@ -1,0 +1,13 @@
+@font-face
+{
+    font-family: "Caudex-Regular.ttf";
+    src: url("Caudex-Regular.ttf") ;
+}
+body
+{
+    background-color: rgb(214, 214, 94);
+    margin: 0;
+    font-family: "Caudex-Regular";
+    font-weight: 300;
+    font-size:larger;
+}

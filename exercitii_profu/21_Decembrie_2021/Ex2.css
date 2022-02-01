@@ -1,0 +1,52 @@
+.container
+	{
+		display: grid;
+		background-color: yellow;
+		border: 5px solid green;
+		border-radius: 10px;
+		column-gap: 15px;
+		padding: 5px;
+		row-gap: 5px;
+		
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 100px 100px 100px 100px;
+		
+		grid-template-areas:
+			"unu unu doi doi"
+			"unu unu doi doi"
+			"trei trei patru patru"
+			"trei trei patru patru";
+			
+	}
+	
+.container > *
+{
+	background-color: tomato;
+	border-radius: 5px;
+	padding: 3px;
+}
+	
+
+.container > .cinci
+	{
+		background-color: red;
+		grid-row: 2 / 4;
+		grid-column: 2 / 4;
+	}
+
+	
+.unu{ grid-area: unu; background-color: gray;}
+.doi{ grid-area: doi; background-color: pink;}
+.trei{ grid-area: trei; background-color: cyan;}
+.patru{ grid-area: patru; background-color: lime;}
+
+
+
+
+#ceva
+	{
+		width: 70px;
+		height: 70px;
+		border-radius:10px;
+		background-color: red;
+	}
