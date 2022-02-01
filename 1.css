@@ -1,0 +1,17 @@
+p
+	{
+		color: red;
+	}
+	
+#titlu_mare
+	{
+		background-color: blue;
+		color: yellow;
+		font-size: 35;
+	}
+
+#canvas1
+	{
+		border: 2px solid blue;
+		background-color: indianred;
+	}
